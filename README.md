@@ -47,3 +47,8 @@ ques to represent Entities waiting for their turn to pass through at each lane (
 	
 AI for entity detection and tracking?
 	want a way to track entities around the intersection and how they persist throughout time
+
+
+We should cluster bikes, cars, and pedestrians by groups that can go together.  Each intersection should be setup by groups (1...n) where n is the minimum number of possible pairings that cannot simultaniously go through the intersection.
+
+
