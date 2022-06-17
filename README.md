@@ -51,4 +51,10 @@ AI for entity detection and tracking?
 
 We should cluster bikes, cars, and pedestrians by groups that can go together.  Each intersection should be setup by groups (1...n) where n is the minimum number of possible pairings that cannot simultaniously go through the intersection.
 
+TODO:
+implement a intesection simulator that can que cars randomly into each group.  The SmartLight can then attempt to control the intersection, and we can compare the efficency of the SmartLight compared to a regular, timed-interval traffic light system.
+
+note-to-self:
+	**remove real time measurements and re-do with 'ticks' of time.  this way the intersection can run without having to worry about async funtions (adding new cars to the intersection as old ones are removed) and everything can be done in-between ticks to mimic async.**
+
 
