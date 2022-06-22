@@ -44,6 +44,7 @@ simulate an intersection for testing purposes
 ques to represent Entities waiting for their turn to pass through at each lane (car lane, bike lane, pedestrian lane)
 	pop off entities when they've passed through
 	some way to remove entities if they do unexpected shit (illegal U-turns, etc.)
+    reward for keeping a light on for longer?  System should 'want' to switch lights as infrequently as possible.  Associate a cost with swapping the lights that decreases over time?  threshold value that goes w.r.t the time between NOW and last_light_swap ~(1/x function)
 	
 AI for entity detection and tracking?
 	want a way to track entities around the intersection and how they persist throughout time
